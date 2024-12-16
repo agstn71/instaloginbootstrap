@@ -30,6 +30,10 @@ input {
    
 }
 
+input::placeholder {
+    font-size: 14px;
+}
+
 form {
     margin-top:110px;
     width:65%;
@@ -54,9 +58,14 @@ button {
    justify-content: space-between;
    align-items:center;
    width:75%;
-
+ 
 }
-
+ 
+.divider2 {
+    font-size:14px; 
+    color: #8e8e8e; 
+    font-weight:600;
+}
 
  span {
     padding-right:10px;
@@ -66,7 +75,7 @@ button {
 .forpas {
     margin-top:-10px;
     margin-bottom:20px;
-    font-size: 12px;
+    font-size: 14px;
     color: #385185;
 }
 
